@@ -10,13 +10,55 @@
   "referralCode": "ref6713068747",
   "buyBoosts": {
     "amounts": [1, 2, 3],
-    "type": []
+    "type": [
+      "5_boost_for_24_hours",
+      "10_boost_for_24_hours",
+      "15_boost_for_24_hours"
+    ]
   },
   "buyAnimals": {
-    "nameForEachPosition": []
+    "nameForEachPosition":  [
+      "turtle",
+      "rabbit",
+      "squirrel",
+      "flamingo",
+      "zebra",
+      "moose",
+      "giraffe",
+      "parrot",
+      "fox",
+      "penguin",
+      "crocodile",
+      "panda",
+      "wolf",
+      "bear",
+      "dolphin",
+      "platypus",
+      "capybara",
+      "pepe",
+      "doge",
+      "elephant",
+      "rhinoceros",
+      "orca",
+      "tiger",
+      "shark",
+      "lion",
+      "lion",
+      "lion",
+      "lion",
+      "lion",
+      "lion",
+      "lion",
+      "lion",
+      "lion",
+      "lion"
+    ]
   },
   "upgradeAnimals": {
-    "amountOfEachPosition": []
+    "amountOfEachPosition": [
+      10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+      10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+    ]
   },
-  "feeding": ""
+  "feeding": "7 day"
 }
