@@ -112,7 +112,8 @@ This file now includes expanded configuration options for animal management and 
       10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
       10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
     ]
-  }
+  },
+  "feeding": "7 day"
 }
 ```
 
@@ -125,6 +126,7 @@ This file now includes expanded configuration options for animal management and 
 - `nameForEachPosition`: List of animals to buy in order.
 - `upgradeAnimals`: Configure animal upgrades, maximum is 34 slot.
 - `amountOfEachPosition`: Number of upgrades to perform for each position, maximum is 34 slot.
+- `feeding`: Type of feeding to animals. All type are: "1 day", "2 day", "7 day" or just put it empty it will feed instantly.
 
 ### 2. `boost.yaml` - 🚀 Boost Configuration
 
@@ -165,8 +167,9 @@ The bot supports the following animals:
 - Premium: platypus, capybara, pepe, doge, elephant
 - Legendary: rhinoceros, orca, tiger, shark, lion
 
-Each animal has different characteristics and earning potential. Choose animals based on your strategy and available resources. If you do not want to upgrade or buy any animals just leave the array empty.
+Each animal has different characteristics and earning potential. Choose animals based on your strategy and available resources.
 
+[Previous sections remain unchanged...]
 
 ### 4. `datas.txt` - 🗂️ User Data
 
@@ -210,12 +213,12 @@ _Note: each row for each account_
 1. Navigate to the folder containing the bot files:
 
    ```bash
-   cd /path/to/bot-folder
+   cd /path/to/meomundep.js-folder
    ```
 
 2. Run the bot using the following command:
    ```bash
-   node bot
+   node meomundep
    ```
 
 ---
