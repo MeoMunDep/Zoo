@@ -86,7 +86,8 @@ create_default_configs() {
       10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
       10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
     ]
-    }
+    },
+    "feeding": "7 day"
 }
 EOL
 }
@@ -186,7 +187,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            cd zoo && node bot
+            node meomundep
             read -p "Press Enter to continue..."
             ;;
         4)
