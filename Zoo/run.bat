@@ -111,7 +111,8 @@ if not exist configs.json (
       10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
       10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
     ]>> configs.json
-    echo   }>> configs.json
+    echo   },>> configs.json
+    echo "feeding": "7 day">> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
@@ -186,7 +187,7 @@ if exist "..\node_modules" (
 ) else (
     echo Using node_modules from current directory
 )
-cd zoo && node bot
+node meomundep
 pause
 goto MENU
 
