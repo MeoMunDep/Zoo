@@ -113,7 +113,8 @@ This file now includes expanded configuration options for animal management and 
       10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
     ]
   },
-  "feeding": "7 day"
+  "feeding": "7 day",
+  "riddleCode": "meomundep"
 }
 ```
 
@@ -127,6 +128,7 @@ This file now includes expanded configuration options for animal management and 
 - `upgradeAnimals`: Configure animal upgrades, maximum is 34 slot.
 - `amountOfEachPosition`: Number of upgrades to perform for each position, maximum is 34 slot.
 - `feeding`: Type of feeding to animals. All type are: "1 day", "2 day", "7 day" or just put it empty it will feed instantly.
+- `riddle`: Daily Riddle code.
 
 ### 2. `boost.yaml` - 🚀 Boost Configuration
 
@@ -182,6 +184,8 @@ query_id.../user...
 ```
 
 ### 5. `wallets.txt` - 💼 Wallet Addresses
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
 Add your wallet addresses in the following format:
 
