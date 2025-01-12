@@ -113,6 +113,7 @@ if not exist configs.json (
     ]>> configs.json
     echo   },>> configs.json
     echo "feeding": "7 day">> configs.json
+    echo "riddleCode": "meomundep">> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
