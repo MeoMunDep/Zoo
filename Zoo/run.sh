@@ -87,7 +87,8 @@ create_default_configs() {
       10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
     ]
     },
-    "feeding": "7 day"
+    "feeding": "7 day",
+    "riddleCode": "meomundep"
 }
 EOL
 }
