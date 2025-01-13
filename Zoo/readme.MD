@@ -124,8 +124,8 @@ This file now includes expanded configuration options for animal management and 
 - `amounts`: Array of quantities to purchase.
 - `type`: Array of boost types to buy (must match boost.yaml options)
 - `buyAnimals`: Configure animal purchases.
-- `nameForEachPosition`: List of animals to buy in order.
-- `upgradeAnimals`: Configure animal upgrades, maximum is 34 slot.
+- `nameForEachPosition`: List of animals to buy in order. Leave it empty if do not want to buy.
+- `upgradeAnimals`: Configure animal upgrades, maximum is 34 slot. Leave it empty if do not want to upgrade.
 - `amountOfEachPosition`: Number of upgrades to perform for each position, maximum is 34 slot.
 - `feeding`: Type of feeding to animals. All type are: "1 day", "2 day", "7 day" or just put it empty it will feed instantly.
 - `riddle`: Daily Riddle code.
