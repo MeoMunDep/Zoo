@@ -114,7 +114,9 @@ This file now includes expanded configuration options for animal management and 
     ]
   },
   "feeding": "7 day",
-  "riddleCode": "meomundep"
+  "riddleCode": "meomundep",
+  "rebusCode": "Flamingo",
+  "donationForMeoMunDepAlliance": 10000
 }
 ```
 
@@ -129,6 +131,8 @@ This file now includes expanded configuration options for animal management and 
 - `amountOfEachPosition`: Number of upgrades to perform for each position, maximum is 34 slot.
 - `feeding`: Type of feeding to animals. All type are: "1 day", "2 day", "7 day" or just put it empty it will feed instantly.
 - `riddle`: Daily Riddle code.
+- `riddle`: Daily Rebus code.
+- `donationForMeoMunDepAlliance`: Donate for MeoMunDep Alliance.
 
 ### 2. `boost.yaml` - 🚀 Boost Configuration
 
